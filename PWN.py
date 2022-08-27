@@ -5,8 +5,8 @@ channel = 19
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(channel,GPIO.OUT)
 i = None
-p = GPIO.PWM(channel,30)
-p.start(30)
+p = GPIO.PWM(channel,1000)
+p.start(100)
 
 try:
 	while True:
