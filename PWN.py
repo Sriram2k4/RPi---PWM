@@ -9,7 +9,7 @@ p = GPIO.PWM(channel,30)
 p.start(30)
 
 try:
-	while i != "quit":
+	while True:
 		try:
 			f = input("Enter Frequency: \n")
 			d = input("Enter Duty Cycle: \n")
